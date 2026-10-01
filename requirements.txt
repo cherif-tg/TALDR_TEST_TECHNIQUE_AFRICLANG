@@ -1,9 +1,32 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-spacy
-nltk
-wordcloud
-gensim
+# Environnement du projet : classification de commentaires citoyens (NLP)
+# Python 3.11 (version du notebook) ou version superieur de python
+#
+# Installation :
+#   pip install -r requirements.txt
+#   python -m spacy download fr_core_news_sm
+#
+# Les ressources NLTK (punkt_tab, stopwords) sont téléchargées par le notebook.
+
+#  Données et calcul 
+numpy>=1.26
+pandas>=2.0
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+wordcloud>=1.9
+
+# NLP
+nltk>=3.9            
+spacy>=3.7           
+gensim>=4.3.3        
+
+#  Machine learning 
+scikit-learn>=1.3
+
+#  Exécution du notebook 
+jupyter
+ipykernel
+
+#Fine Tuning Embeddings
+transformers
