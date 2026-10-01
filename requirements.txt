@@ -32,3 +32,5 @@ ipykernel
 transformers
 #Interface streamlit:
 streamlit
+#traitement de caracteres
+wordfreq
