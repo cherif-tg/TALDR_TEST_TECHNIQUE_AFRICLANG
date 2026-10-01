@@ -30,3 +30,5 @@ ipykernel
 
 #Fine Tuning Embeddings
 transformers
+#Interface streamlit:
+streamlit

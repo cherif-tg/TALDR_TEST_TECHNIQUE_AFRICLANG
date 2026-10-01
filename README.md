@@ -30,7 +30,9 @@ Auteur : *TENGA Cherif Abdel Azize - Data Scientist & AI Engineer*
 ├── code.ipynb                      # notebook de travail (toutes les étapes)
 ├── data/
 │   └── dataset_nlp_test_tal.csv    # 150 commentaires (id, texte, categorie)
-└── figures_dir/                    # figures générées (wordclouds, matrices de confusion, comparaison)
+├── figures_dir/                    # figures générées (wordclouds, matrices de confusion, comparaison)
+├──
+└──app.py                           # Interface streamlit de test du modele
 ```
 
 ## 2. Installation et reproduction
@@ -41,6 +43,9 @@ source .venv/bin/activate            # Windows : .venv\Scripts\activate
 pip install -r requirements.txt
 python -m spacy download fr_core_news_sm
 jupyter notebook code.ipynb
+
+#Lancement de l'Interface streamlit
+streamlit run app.py
 ```
 
 - Bibliothèques principales : `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `nltk`, `spacy`, `wordcloud`, `gensim`.
