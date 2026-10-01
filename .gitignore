@@ -1,0 +1,6 @@
+venv/
+main.py
+*.toml
+.python-version
+data/
+docs/
