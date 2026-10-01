@@ -6,3 +6,4 @@ scikit-learn
 spacy
 nltk
 wordcloud
+gensim
