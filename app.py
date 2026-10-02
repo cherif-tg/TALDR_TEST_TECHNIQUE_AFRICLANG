@@ -28,6 +28,8 @@ def charger_modele():
 
 
 def predire(texte, tfidf, modele, stop_fr):
+    """Fonction de prediction qui utilise le modele sauvegarder pour faire
+    Une classification du texte saisi par l'utilisateur."""
     tokens = pretraiter(texte, stop_fr)
     X = tfidf.transform([" ".join(tokens)])
     if hasattr(modele, "decision_function"):
