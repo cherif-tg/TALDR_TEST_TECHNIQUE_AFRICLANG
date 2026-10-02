@@ -29,7 +29,7 @@ jupyter
 ipykernel
 
 #Fine Tuning Embeddings
-transformers
+sentence_transformers
 #Interface streamlit:
 streamlit
 #traitement de caracteres
