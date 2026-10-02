@@ -4,3 +4,5 @@ main.py
 .python-version
 data/
 docs/
+models/
+figures_dir/
